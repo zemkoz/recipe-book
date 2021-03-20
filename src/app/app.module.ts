@@ -23,7 +23,8 @@ import {FormsModule} from '@angular/forms';
     ShoppingEditComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
