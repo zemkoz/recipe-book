@@ -1,5 +1,5 @@
-import {Component, ElementRef, OnInit, Output, ViewChild, EventEmitter} from '@angular/core';
-import {Ingredient} from '../../shared/ingredient.model';
+import {Component, ElementRef, EventEmitter, OnInit, Output, ViewChild} from '@angular/core';
+import {Ingredient} from '../../shared/model/ingredient.model';
 
 @Component({
   selector: 'app-shopping-edit',
